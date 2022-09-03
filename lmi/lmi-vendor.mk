@@ -1144,7 +1144,6 @@ PRODUCT_PACKAGES += \
     pm-proxy \
     pm-service \
     port-bridge \
-    ppd \
     qdcmss \
     qmipriod \
     qrtr-cfg \
