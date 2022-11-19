@@ -3236,7 +3236,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.mi.node.watermark.so"],
-			shared_libs: ["libcutils", "libutils", "libcamera_metadata", "libcom.qti.chinodeutils", "libchilog", "libjpeg", "libpng", "libz", "libpiex", "libexpat", "libdng_sdk2vendor", "libEGL", "libGLESv2", "libnativewindow", "libft2vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libpiex_shim", "libcutils", "libutils", "libcamera_metadata", "libcom.qti.chinodeutils", "libchilog", "libjpeg", "libpng", "libz", "libpiex", "libexpat", "libdng_sdk2vendor", "libEGL", "libGLESv2", "libnativewindow", "libft2vendor", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
