@@ -537,7 +537,6 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libsoc_helper_jni \
     libssc_default_listener \
-    libsubsystem_control \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libthermalclient \
@@ -1161,9 +1160,6 @@ PRODUCT_PACKAGES += \
     sscrpcd \
     ssgqmigd \
     ssgtzd \
-    ssr_diag \
-    ssr_setup \
-    subsystem_ramdump \
     tftp_server \
     thermal-engine \
     time_daemon \
