@@ -475,20 +475,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
-    libAlacSwDec \
-    libApeSwDec \
-    libFlacSwDec \
-    libMpeghSwEnc \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxEvrcDec \
     libOmxG711Dec \
-    libOmxMpeghEncSw \
     libOmxQcelp13Dec \
     libOmxVpp \
     libOmxWmaDec \
@@ -557,7 +550,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
     libOmxDsdDec \
-    libOmxMpeghDecSw \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -1094,7 +1086,6 @@ PRODUCT_PACKAGES += \
     ATFWD-daemon \
     adpl \
     adsprpcd \
-    audioflacapp \
     batterysecret \
     cdsprpcd \
     cnd \
