@@ -535,11 +535,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
-    audio.primary.kona \
+    audio.primary.lmi \
     sound_trigger.primary.kona \
     vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
-    liba2dpoffload \
+    liba2dpoffload_lmi \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -567,7 +567,7 @@ PRODUCT_PACKAGES += \
     libresampler \
     libsmwrapper \
     libsn100u_fw \
-    libssrec \
+    libssrec_lmi \
     libstagefright_soft_qtiflacdec \
     libstreamparser \
     libsurround_3mic_proc \
