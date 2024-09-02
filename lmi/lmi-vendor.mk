@@ -501,16 +501,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
@@ -811,6 +801,16 @@ PRODUCT_PACKAGES += \
     libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libcdsprpc_system \
     libchilog \
     libcne \
