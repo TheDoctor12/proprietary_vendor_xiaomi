@@ -811,6 +811,7 @@ PRODUCT_PACKAGES += \
     libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
+    libcdsprpc_system \
     libchilog \
     libcne \
     libcneapiclient \
