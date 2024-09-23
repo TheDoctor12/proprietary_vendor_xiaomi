@@ -744,15 +744,6 @@ PRODUCT_PACKAGES += \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libMegviiFacepp-0.5.2 \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
