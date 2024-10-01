@@ -468,10 +468,7 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     android.hardware.bluetooth@1.0-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.kona \
     com.dsi.ant@1.0-impl \
-    sound_trigger.primary.kona \
-    vendor.qti.hardware.audiohalext@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -556,6 +553,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
+    audio.primary.kona \
+    sound_trigger.primary.kona \
+    vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
     libOmxDsdDec \
     libOmxMpeghDecSw \
