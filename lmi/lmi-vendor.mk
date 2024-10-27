@@ -547,8 +547,6 @@ PRODUCT_PACKAGES += \
     libvppimmotion \
     libvpplibrary \
     libvpptestutils \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     unnhal-acc-hta \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -1158,3 +1156,7 @@ PRODUCT_PACKAGES += \
     wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice
+
+PRODUCT_PACKAGES += \
+    libsns_device_mode_skel_libsns_device_mode_skel_symlink64 \
+    libsns_low_lat_stream_skel_libsns_low_lat_stream_skel_symlink64
