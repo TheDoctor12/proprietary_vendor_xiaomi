@@ -808,10 +808,7 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcvp2 \
-    libcvp2 \
     libcvp2_hfi \
-    libcvp2_hfi \
-    libcvp_common \
     libcvp_common \
     libcvpcpuRev_skel \
     libdisp-aba \
