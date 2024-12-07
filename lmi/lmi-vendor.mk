@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -487,6 +486,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
+    libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
     libhta_hexagon_runtime \
@@ -494,6 +494,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libmmosal_vendor \
+    libnanopb \
     libnpu \
     libopenvx \
     libqcci_legacy \
@@ -507,7 +508,6 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
-    libqrtr \
     libqsocket \
     libscveCommon \
     libscveCommon_stub \
@@ -520,6 +520,7 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libsoc_helper_jni \
     libssc_default_listener \
+    libssccalapi \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libthermalclient \
@@ -546,7 +547,6 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadm \
     libadpcmdec \
-    libalsautils \
     libaudcal \
     libaudio_log_utils \
     libaudioalsa \
@@ -569,7 +569,6 @@ PRODUCT_PACKAGES += \
     libsn100u_fw \
     libssrec_lmi \
     libstagefright_soft_qtiflacdec \
-    libstreamparser \
     libsurround_3mic_proc \
     libtinycompress \
     libwfdcodecv4l2_proprietary \
@@ -804,14 +803,12 @@ PRODUCT_PACKAGES += \
     libcvp_common \
     libcvpcpuRev_skel \
     libdisp-aba \
-    libdisplayskuutils \
     libdng_sdk2vendor \
     libdpmqmihal \
     libdpps \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
-    libdsutils \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
     libembmsservice \
@@ -843,7 +840,6 @@ PRODUCT_PACKAGES += \
     libmibokeh_845_video \
     libmibokeh_855 \
     libminkdescriptor \
-    libminksocket \
     libmivendor_module_calibration \
     libmivendor_module_hall \
     libmivendor_module_motor \
@@ -868,7 +864,6 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libpowercore \
     libpvr \
     libqcmaputils \
     libqcrilFramework \
@@ -913,7 +908,6 @@ PRODUCT_PACKAGES += \
     libst_soft_isp_shared \
     libsupermoon \
     libswregistrationalgo \
-    libswvdec \
     libsymphony-cpu \
     libsynx \
     libthreadutils \
@@ -942,13 +936,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.color@1.4 \
-    vendor.display.color@1.5 \
-    vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0_vendor \
     vendor.qti.data.factory@2.1_vendor \
     vendor.qti.data.factory@2.2_vendor \
@@ -1014,6 +1001,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.slmadapter@1.0_vendor \
     vendor.qti.hardware.soter@1.0 \
+    vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.ims.callcapability@1.0_vendor \
     vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0_vendor \
@@ -1140,7 +1128,6 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine \
     time_daemon \
-    tloc_daemon \
     vendor.qti.hardware.soter@1.0-provision \
     vppservice \
     wfdhdcphalservice \
