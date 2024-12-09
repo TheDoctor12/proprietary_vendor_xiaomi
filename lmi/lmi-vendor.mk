@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc \
@@ -508,6 +509,7 @@ PRODUCT_PACKAGES += \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
+    libdiag \
     libhta_hexagon_runtime \
     libidl \
     libmdmdetect \
@@ -753,10 +755,16 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
+    libGPQTEEC_vendor \
+    libGPTEE_vendor \
+    libGPreqcancel \
+    libGPreqcancel_svc \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libMegviiFacepp-0.5.2 \
+    libQSEEComAPI \
     libQTEEConnector_listener \
+    libQTEEConnector_vendor \
     libSNPE \
     libSecureUILib \
     libStDrvInt \
@@ -784,6 +792,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_preview_deflicker \
     libarcsoft_super_night_raw \
     libarcsoft_superportrait \
+    libbase64 \
     libc++_shared \
     libcacertclient \
     libcamera_dirty \
@@ -797,6 +806,7 @@ PRODUCT_PACKAGES += \
     libcneqmiutils \
     libcom.qti.chinodeutils \
     libconfigdb \
+    libcpion \
     libcvp2 \
     libcvp2 \
     libcvp2_hfi \
@@ -809,6 +819,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk2vendor \
     libdpmqmihal \
     libdpps \
+    libdrmfs \
+    libdrmtime \
     libdsi_netctrl \
     libdsutils \
     libdualcam_optical_zoom_control \
@@ -841,6 +853,8 @@ PRODUCT_PACKAGES += \
     libmialgoengine \
     libmibokeh_845_video \
     libmibokeh_855 \
+    libminkdescriptor \
+    libminksocket \
     libmivendor_module_calibration \
     libmivendor_module_hall \
     libmivendor_module_motor \
@@ -860,6 +874,7 @@ PRODUCT_PACKAGES += \
     libnotifyaudiohal \
     liboemcrypto \
     libofflinelog \
+    libops \
     libos \
     libpdmapper \
     libpdnotifier \
@@ -871,6 +886,7 @@ PRODUCT_PACKAGES += \
     libqcrildatactl \
     libqdi \
     libqdp \
+    libqisl \
     libqmiextservices \
     librcc \
     librelight_only \
@@ -884,6 +900,7 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librmp \
+    librpmb \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
@@ -903,6 +920,7 @@ PRODUCT_PACKAGES += \
     libspcom \
     libspl \
     libssc \
+    libssd \
     libst_soft_isp_calc_exposure_shared \
     libst_soft_isp_shared \
     libsupermoon \
@@ -914,6 +932,8 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
+    libtrustedapploader \
+    libtzdrmgenprov \
     libultrasound \
     libvideoBokeh \
     libvideofilter_only \
@@ -972,6 +992,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
@@ -1118,6 +1139,7 @@ PRODUCT_PACKAGES += \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
+    qseecomd \
     qti \
     qtigetprop \
     qtisetprop \
