@@ -475,16 +475,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
     libOmxVpp \
-    libOmxWmaDec \
     libadsp_default_listener \
     libadsprpc \
     libbluetooth_audio_session_qti \
@@ -549,7 +540,6 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.kona \
     vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
-    libOmxDsdDec \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -565,7 +555,6 @@ PRODUCT_PACKAGES += \
     libaudioparsers \
     libaudioroute_ext \
     libdrc \
-    libdsd2pcm \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
@@ -755,6 +744,15 @@ PRODUCT_PACKAGES += \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libMegviiFacepp-0.5.2 \
+    libOmxAacDec \
+    libOmxAlacDec \
+    libOmxAmrDec \
+    libOmxAmrwbplusDec \
+    libOmxApeDec \
+    libOmxEvrcDec \
+    libOmxG711Dec \
+    libOmxQcelp13Dec \
+    libOmxWmaDec \
     libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
