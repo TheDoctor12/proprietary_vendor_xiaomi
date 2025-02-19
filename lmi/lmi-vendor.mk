@@ -514,8 +514,6 @@ PRODUCT_PACKAGES += \
     libmmosal \
     libnpu \
     libopenvx \
-    libpdmapper \
-    libpdnotifier \
     libqcci_legacy \
     libqmi \
     libqmi_cci \
@@ -863,6 +861,8 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libofflinelog \
     libos \
+    libpdmapper \
+    libpdnotifier \
     libperipheral_client \
     libpowercore \
     libpvr \
