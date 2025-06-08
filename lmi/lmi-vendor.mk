@@ -118,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -817,7 +816,6 @@ PRODUCT_PACKAGES += \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
-    libhexagon_nn_stub \
     libipebpsstriping \
     libjnihelper \
     libloadalgo_stub \
@@ -930,9 +928,6 @@ PRODUCT_PACKAGES += \
     sensors.elliptic \
     sensors.ssc \
     sensors.touch \
-    unnhal-acc-adreno \
-    unnhal-acc-common \
-    unnhal-acc-hvx \
     vendor.qti.data.factory@2.0_vendor \
     vendor.qti.data.factory@2.1_vendor \
     vendor.qti.data.factory@2.2_vendor \
@@ -1052,8 +1047,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     com.android.hotwordenrollment.common.util \
-    android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
-    android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.hardware.limits@1.0-service.xml \
     ATFWD-daemon \
@@ -1070,7 +1063,6 @@ PRODUCT_PACKAGES += \
     hdcp2p2prov \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
-    android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
     vendor.qti.esepowermanager@1.1-service \
